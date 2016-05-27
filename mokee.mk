@@ -2,18 +2,18 @@
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/f320/f320.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := f320
-PRODUCT_NAME := bliss_f320
+PRODUCT_NAME := mk_f320
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-F320
 PRODUCT_MANUFACTURER := lge

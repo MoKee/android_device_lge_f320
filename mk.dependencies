@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "android_vendor_lge_f320",
+    "target_path": "vendor/lge/f320"
+  },
+  {
+    "repository": "android_device_lge_g2-common",
+    "target_path": "device/lge/g2-common"
+  },
+  {
+    "repository": "android_kernel_lge_f320",
+    "target_path": "kernel/lge/f320"
+  },
+  {
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  }
+]
