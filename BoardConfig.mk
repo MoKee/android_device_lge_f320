@@ -16,10 +16,8 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := f320_defconfig
+TARGET_KERNEL_CONFIG := mokee_f320_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := f320,f320s,f320k,g2,galbi
 
 G2_DTS_TARGET := msm8974-g2-kr
-
-TARGET_KERNEL_SOURCE := kernel/lge/f320
